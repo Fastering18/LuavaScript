@@ -56,7 +56,9 @@ promise.result(
 	function(err)
 		print("error: "..err);
 	end
-).final()  -- final required to end the input, this function used to start processing the request.
+).finally(function() 
+    print("promise ended") 
+end) 
 ```
 
 [Toolbox LuavaScript](https://www.roblox.com/library/6244962761/LuavaScript) <br>
