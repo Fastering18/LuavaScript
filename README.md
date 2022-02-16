@@ -1,3 +1,6 @@
+> **This project is discontinued.**  
+> As alternative you can use default roblox promise.  
+> check out another project [here](https://github.com/Fastering18/JS-like-discordia-bot)  
 # LuavaScript
 JavaScript functions written in lua, Roblox Studio.
 
@@ -32,9 +35,9 @@ local str = String.new("   Hello World  ");
 print(str.toLowerCase().trim().value);
 
 
--- PROCESS & .ENV
-
-process.env.token = "This isn't bot token -_-";
+-- PROCESS & Environment variables
+-- this doesnt store env instead store into normal table. 
+process.env.token = "This isn't bot token";
 print(process.env);
 
 
